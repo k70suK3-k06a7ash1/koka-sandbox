@@ -9,5 +9,11 @@ fun encode( s : string, shift : int )
 fun caesar( s : string ) : string
   s.encode( 3 )
 
+fun showit( s : string )
+  s.encode(3).count.println
+
+fun show-string( s : string )
+  s.encode(3).println
 fun main()
-    println(caesar("hello"))
+    showit("hello")
+    show-string("hello")
