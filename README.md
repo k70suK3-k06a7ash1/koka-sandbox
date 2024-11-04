@@ -10,3 +10,16 @@
 ```bash
 git commit --amend -m '{message}'
 ```
+
+## file load
+
+```bash
+
+koka
+
+# loading file
+> :l ${file_name}
+
+# function call
+> ${function_name}()
+```
